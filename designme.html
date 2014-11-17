@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <title>Design Your Own Cake</title>
+    
+    <link rel="stylesheet" type="text/css" href="css/designme.css" />
+	<link href="css/style01.css" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript" src="js/designme.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+
+    <script type="text/javascript" src="js/mootools-core-1.3.1-full-compat-yc.js"></script>
+	<script type="text/javascript" src="js/drag.js"></script>
+    <script type="text/javascript" src="js/move.js"></script>
+    
+</head>
+
+<body onload="makeDraggable(); ul2finder();">
+	
+    <!-- Background image -->
+    <img class="background" src="images/background.jpg" />
+
+    <center><img id="header" src="images/designmeHeader.png" /></center>
+    
+    <!--FINDER-->
+	<div id="finderparent">
+    	<!--LEFT PANEL: NAVIGATION -->
+        <ul id="finder">
+            <li>images/panel/level1/addTiers.png
+            	<ul>
+                	<li>images/panel/level2/round.png
+                    	<ul>
+                            <li><a href='javascript: void(0)' ><img class="root" src="images/panel/level3/round/round-10.png" onclick="makeCake('round', '10')"/></a></li>
+                            <li><a href='javascript: void(0)' ><img  class="root" src="images/panel/level3/round/round-20.png" onclick="makeCake('round', '20')"/></a></li>
+                            <li><a href='javascript: void(0)' ><img  class="root" src="images/panel/level3/round/round-25.png" onclick="makeCake('round', '25')"/></a></li>
+                            <li><a href='javascript: void(0)' ><img class="root" src="images/panel/level3/round/round-30.png" onclick="makeCake('round', '30')"/></a></li>
+                            <li><a href='javascript: void(0)' ><img  class="root" src="images/panel/level3/round/round-50.png" onclick="makeCake('round', '50')"/></a></li>
+                            <li><a href='javascript: void(0)' ><img  class="root" src="images/panel/level3/round/round-70.png" onclick="makeCake('round', '70')"/></a></li>
+                            <li><a href='javascript: void(0)' ><img class="root" src="images/panel/level3/round/round-90.png" onclick="makeCake('round', '90')"/></a></li>
+                		</ul>
+                    </li>
+                    <li>images/panel/level2/square.png
+                    	<ul>
+                            <li><a href='javascript: void(0)' ><img  class="root" src="images/panel/level3/square/square-7.png" onclick="makeCake('square', '7')"/></a></li>
+                            <li><a href='javascript: void(0)' ><img  class="root" src="images/panel/level3/square/square-16.png" onclick="makeCake('square', '16')"/></a></li>
+                            <li><a href='javascript: void(0)' ><img  class="root" src="images/panel/level3/square/square-28.png" onclick="makeCake('square', '28')"/></a></li>
+                            <li><a href='javascript: void(0)' ><img  class="root" src="images/panel/level3/square/square-45.png" onclick="makeCake('square', '45')"/></a></li>
+                            <li><a href='javascript: void(0)' ><img  class="root" src="images/panel/level3/square/square-60.png" onclick="makeCake('square', '60')"/></a></li>
+                            <li><a href='javascript: void(0)' ><img  class="root" src="images/panel/level3/square/square-85.png" onclick="makeCake('square', '85')"/></a></li>
+                		</ul>
+                    </li>
+                    <li>images/panel/level2/hexagon.png
+                    	<ul>
+                            <li><a href='javascript: void(0)' ><img  class="root" src="images/panel/level3/hexagon/hexagon-11.png" onclick="makeCake('hexagon', '11')"/></a></li>
+                            <li><a href='javascript: void(0)' ><img  class="root" src="images/panel/level3/hexagon/hexagon-24.png" onclick="makeCake('hexagon', '24')"/></a></li>
+                            <li><a href='javascript: void(0)' ><img  class="root" src="images/panel/level3/hexagon/hexagon-36.png" onclick="makeCake('hexagon', '36')"/></a></li>
+                            <li><a href='javascript: void(0)' ><img  class="root" src="images/panel/level3/hexagon/hexagon-63.png" onclick="makeCake('hexagon', '63')"/></a></li>
+                		</ul>
+                    </li>
+                </ul>
+            <li>
+            
+            <li>images/panel/level1/styleUp.png
+            	<ul>
+                	<li>images/panel/level2/adorn.png
+                    	<ul>
+                            <li><a href='javascript: void(0)' ><img  class="root" src="images/panel/level2/deco/dots.png" onclick="makeDeco('dots')"/></a></li>
+                        <li><a href='javascript: void(0)' ><img  class="root" src="images/panel/level2/deco/scrolls.png" onclick="makeDeco('scrolls')"/></a></li>
+                        <li><a href='javascript: void(0)' ><img  class="root" src="images/panel/level2/deco/bows.png" onclick="makeDeco('bows')"/></a></li>
+                        <li><a href='javascript: void(0)' ><img  class="root" src="images/panel/level2/deco/stripes.png" onclick="makeDeco('stripes')"/></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+  
+        </ul>
+        <!--END LEFT PANEL: NAVIGATION-->
+       
+        <!--CANVAS-->
+        <div id="canvas" style="background-image: url(images/grid.jpg);" ></div>
+        <!--END CANVAS-->
+        
+        
+</div>
+	<!--END FINDER-->
+
+
+
+
+
+</body>
+
+</html>
