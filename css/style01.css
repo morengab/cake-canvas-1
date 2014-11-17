@@ -1,0 +1,119 @@
+img.background {
+	
+	/*rules to fill background*/
+	min-height:100%;
+	min-width:1024px;
+	
+	/*rules to scale*/
+	width:100%;
+	height:auto;
+	
+	/*rules to position*/
+	position:fixed;
+	top:0px;
+	left:0px;
+
+}
+
+ #page-wrap { 
+ 
+ 	position: relative; 
+	width: 800px;
+	margin: 50px auto; 
+	padding: 10px; 
+	background: white; 
+	-moz-box-shadow: 0 0 20px rgba(0, 0, 0, .6); 
+	-webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .6); 
+	box-shadow: 0 0 20px rgba(0, 0, 0, .6); 
+ 
+ }
+ 
+  
+ul#nav {
+	position:absolute;
+	top: 0px;
+	right:0px;
+	list-style:none;
+	padding:0;
+	width:625px
+}
+
+ul#nav li {
+	
+	display:inline;
+	
+}
+
+ul#nav li a {
+	text-decoration:none;
+	padding:5px 0;
+	width:100px;
+	float:left;
+	text-align:center;
+	font-family:"Myriad Pro", "Helvetica CY Plain", Arial, sans-serif;
+	color:#666;
+}
+
+ul#nav li a:hover {
+	
+	color:#000;
+	text-decoration:underline;
+}
+
+img#logo {
+	
+	margin:30px;
+}
+
+
+img#appt {
+	
+	margin:30px;
+	width:268px;
+	height:67px;
+	position:absolute;
+	right:0px;
+	top:30px;	
+	
+}
+
+div#note {
+	
+	margin-top:0px;
+	margin-left:60px;
+	width:285px;
+	height:390px;
+	text-align:left;
+	
+}
+
+div#note p {
+	
+	position:relative;
+	top:-225px;
+	font-family:"Minion Pro", serif;
+	padding:15px;
+	font-size:15px;
+	line-height: 1em;
+	
+}
+
+div#gallery {
+	
+	margin:30px;
+	position:absolute;
+	right:0px;
+	top:145px;	
+	
+}
+
+img#review{
+	position:absolute;
+	top:10px;
+	right:0px;
+}
+
+
+
+
+

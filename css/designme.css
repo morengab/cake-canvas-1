@@ -1,0 +1,96 @@
+body
+{
+	margin:0;
+	padding:0;
+	font-family:arial,sans-serif;
+}
+#header
+{
+	position: relative; 
+	margin-top: 81px; 
+	margin-left: auto;
+	margin-right: auto;
+	padding:0px;
+}
+.domenabled #finderparent
+{
+ 	position: relative; 
+	width: 860px;
+	height: 429px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 41px; 
+	background: white; 
+	-moz-box-shadow: 0 0 20px rgba(0, 0, 0, .6); 
+	-webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .6); 
+	box-shadow: 0 0 20px rgba(0, 0, 0, .6); 
+}
+.domenabled #finder
+{
+	position:absolute;
+	top:42px;
+	left:42px;
+}
+.domenabled ul#finder,
+.domenabled ul#finder li,
+.domenabled ul#finder ul
+{
+	width:130px;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+
+}
+.domenabled ul#finder ul.hidden
+{
+	top:0px;
+	left:-2000px;
+	position:absolute;
+}
+.domenabled ul#finder ul.shown
+{
+	top:0px;
+	left:130px;
+	position:absolute;
+}
+.domenabled #finder a.open
+{
+	background:url(arrowon.gif) no-repeat 90% 50% #eee;
+	padding-right:0px;
+	padding-left:0px;
+	display:block;
+}
+.domenabled #finder a.parent
+{
+	background:url(arrow.gif) no-repeat #fff 100% 50%;
+	padding-right:16px;
+	padding-left:0px;
+}
+.domenabled ul#finder li a
+{
+	color:#000;
+	background:url(normal.gif) no-repeat #fff 0 50% ;
+	padding-left:0px;
+	text-decoration:none;
+}
+.domenabled #canvas 
+{
+	background-image: url(images/grid.jpg); 
+	background-color:#096;
+	position:absolute; 
+	height:349px; 
+	width:351px; 
+	right:41px;
+	top: 42px;
+}
+.root
+{
+	border:0px;
+	margin:0px;
+	padding:0px;
+}
+
+
+
+
+
